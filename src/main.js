@@ -17,3 +17,12 @@ import imgUrl from './assets/1.gif'
 const theImg = document.createElement('img')
 theImg.src = imgUrl
 document.body.appendChild(theImg)
+
+// 引入字体图标文件
+import './assets/fonts/iconfont.css'
+
+class App {
+  static a = 123
+}
+
+console.log(App.a)
