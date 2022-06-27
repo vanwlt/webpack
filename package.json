@@ -1,0 +1,15 @@
+{
+  "name": "webpacka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vanwlt/webpack.git",
+  "author": "wlt <734490921@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
