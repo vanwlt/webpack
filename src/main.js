@@ -5,4 +5,4 @@ import './tabs.js'
 
 import $ from 'jquery'
 
-$('#swiper').css('background-color', 'red')
+$('#swiper').css('background-color', 'yellow')

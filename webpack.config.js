@@ -16,7 +16,11 @@ module.exports = {
       template: './public/index.html', // 告诉webpack使用插件时, 以我们自己的html文件作为模板去生成dist/html文件
       filename: 'index.html', // 生成文件的名称
     }),
-    new CleanWebpackPlugin(), // 删除的是ouput path 里配置的那个输出文件的文件夹
+    // new CleanWebpackPlugin(), // 删除的是ouput path 里配置的那个输出文件的文件夹
     // 默认情况下dist
   ],
+  devServer: {
+    port: 3000, // 端口号
+    open: true,
+  },
 }
